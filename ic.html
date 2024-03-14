@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inches to Centimeters</title>
+    <link rel="stylesheet" href="ic.css">
+</head>
+
+<body>
+    <div class="ic">
+
+        <h1>Inches to Centimeters</h1>
+        <a href="converter.html">
+            <h2 class="home">Home </h2>
+        </a>
+        <input type="number" placeholder="Enter the number" id="number">
+        <button type="submit" class="submit">
+            Submit
+        </button>
+        <h1 id="output"></h1>
+    </div>
+    <script>
+
+        let button = document.querySelector("button")
+        button.addEventListener('click', display)
+
+        function display() {
+            let input = document.querySelector("#number").value;
+            let output = document.querySelector("#output");
+            let c = input * 2.54
+            output.innerHTML = c
+        }
+    </script>
+
+</body>
+
+</html>

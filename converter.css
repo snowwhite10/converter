@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(pink.jpg);
+  background-size: 1600px;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  color: white;
+  font-family: arial Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  padding: 80px;
+}
+
+.options {
+  color: white;
+  font-weight: bold;
+  margin: 40px 0px 0px 620px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box1 {
+  color: blue;
+  border: 2px solid white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 4px 5px 3px white;
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(26, 206, 230);
+}
+.box2 {
+  color: blue;
+  border: 2px solid white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 4px 5px 3px white;
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(26, 206, 230);
+}
+.box3 {
+  color: blue;
+  border: 2px solid white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 4px 5px 3px white;
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(26, 206, 230);
+}
+.box4 {
+  color: blue;
+  border: 2px solid white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 4px 5px 3px white;
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(26, 206, 230);
+}
+.box1:hover {
+  background: rgba(225, 18, 163, 0.582);
+  color: white;
+  scale: 1.2;
+  transition-duration: 0.5s;
+}
+.box2:hover {
+  background: rgba(225, 18, 163, 0.582);
+  text-decoration: underline;
+  color: white;
+  scale: 1.2;
+  transition-duration: 0.5s;
+}
+.box3:hover {
+  background: rgba(225, 18, 163, 0.582);
+  text-decoration: underline;
+  color: white;
+  scale: 1.2;
+  transition-duration: 0.5s;
+}
+.box4:hover {
+  background: rgba(225, 18, 163, 0.582);
+  text-decoration: underline;
+  color: white;
+  scale: 1.2;
+  transition-duration: 0.5s;
+}
